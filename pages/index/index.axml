@@ -1,0 +1,3 @@
+<view a:for="{{samples}}" onTap="openSamples" data-sample-item="{{item}}">
+  {{item}}
+</view>

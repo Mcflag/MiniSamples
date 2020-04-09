@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/view/view",
+    "pages/swiper/swiper",
+    "pages/scroll-view/scroll-view",
+    "pages/cover-view/cover-view",
+    "pages/movable-view/movable-view"
+  ],
+  "window": {
+    "defaultTitle": "My Samples"
+  }
+}
