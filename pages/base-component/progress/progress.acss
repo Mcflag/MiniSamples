@@ -1,0 +1,21 @@
+progress{
+  margin-bottom: 60rpx;
+}
+
+.test{
+  position: relative;
+}
+
+.progress-background{
+  width: 100%;
+  height: 20rpx;
+  position: absolute;
+  z-index: 2;
+}
+
+.progress-upper{
+  width: 100%;
+  height: 20rpx;
+  position: absolute;
+  z-index: 3;
+}

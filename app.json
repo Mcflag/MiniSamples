@@ -1,11 +1,19 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/view/view",
-    "pages/swiper/swiper",
-    "pages/scroll-view/scroll-view",
-    "pages/cover-view/cover-view",
-    "pages/movable-view/movable-view"
+    "pages/view-component/view/view",
+    "pages/view-component/swiper/swiper",
+    "pages/view-component/scroll-view/scroll-view",
+    "pages/view-component/cover-view/cover-view",
+    "pages/view-component/movable-view/movable-view",
+    "pages/base-component/text/text",
+    "pages/base-component/icon/icon",
+    "pages/base-component/progress/progress",
+    "pages/base-component/rich-text/rich-text",
+    "pages/form-component/button/button",
+    "pages/form-component/form/form",
+    "pages/form-component/label/label",
+    "pages/form-component/input/input"
   ],
   "window": {
     "defaultTitle": "My Samples"

@@ -1,3 +1,20 @@
-<view a:for="{{samples}}" onTap="openSamples" data-sample-item="{{item}}">
-  {{item}}
+<view class="page">
+  <view class="page-description" onTap="changeViewVisible">视图容器</view>
+  <view class="page-section" hidden="{{viewHidden}}">
+    <view a:for="{{viewSamples}}" onTap="openViewSamples" data-sample-item="{{item}}">
+      {{item}}
+    </view>
+  </view>
+  <view class="page-description" onTap="changeBaseVisible">基础内容</view>
+  <view class="page-section" hidden="{{baseHidden}}">
+    <view a:for="{{baseSamples}}" onTap="openBaseSamples" data-sample-item="{{item}}">
+      {{item}}
+    </view>
+  </view>
+  <view class="page-description" onTap="changeFormVisible">表单组件</view>
+  <view class="page-section" hidden="{{formHidden}}">
+    <view a:for="{{formSamples}}" onTap="openFormSamples" data-sample-item="{{item}}">
+      {{item}}
+    </view>
+  </view>
 </view>

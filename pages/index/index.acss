@@ -1,8 +1,8 @@
-page {
+.page {
   font-size: 50rpx;
 }
 
-view {
-  padding: 20rpx;
+view{
+  padding: 10rpx;
   padding-left: 40rpx;
 }
