@@ -13,7 +13,14 @@
     "pages/form-component/button/button",
     "pages/form-component/form/form",
     "pages/form-component/label/label",
-    "pages/form-component/input/input"
+    "pages/form-component/input/input",
+    "pages/form-component/textarea/textarea",
+    "pages/form-component/radio/radio",
+    "pages/form-component/checkbox/checkbox",
+    "pages/form-component/switch/switch",
+    "pages/form-component/slider/slider",
+    "pages/form-component/picker/picker",
+    "pages/form-component/picker-view/picker-view"
   ],
   "window": {
     "defaultTitle": "My Samples"

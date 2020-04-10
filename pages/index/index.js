@@ -5,7 +5,7 @@ Page({
     baseHidden: true,
     baseSamples:['text','icon','progress','rich-text'],
     formHidden: false,
-    formSamples:['button','label','form','input']
+    formSamples:['button','label','form','input','textarea','radio','checkbox','switch','slider','picker','picker-view']
   },
   changeViewVisible(){
     this.setData({
