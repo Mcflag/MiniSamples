@@ -20,7 +20,8 @@
     "pages/form-component/switch/switch",
     "pages/form-component/slider/slider",
     "pages/form-component/picker/picker",
-    "pages/form-component/picker-view/picker-view"
+    "pages/form-component/picker-view/picker-view",
+    "pages/function-component/network-test/network-test"
   ],
   "window": {
     "defaultTitle": "My Samples"
