@@ -1,3 +1,35 @@
-<view>
-  New Page
+<view class="page">
+  <view class="page-description">注册</view>
+  <form onSubmit="onSubmit" onReset="onReset">
+    <view class="page-section">
+      <view class="form-row">
+        <view class="form-row-label">用户名</view>
+        <view class="form-row-content">
+          <input name="username" class="input" type="text" placeholder="输入用户名" />
+        </view>
+      </view>
+    </view>
+    <view class="page-section">
+      <view class="form-row">
+        <view class="form-row-label">密码</view>
+        <view class="form-row-content">
+          <input name="password" class="input" password type="text" placeholder="输入密码" />
+        </view>
+      </view>
+    </view>
+    <view class="page-section">
+      <view class="form-row">
+        <view class="form-row-label">重输密码</view>
+        <view class="form-row-content">
+          <input name="repassword" class="input" password type="text" placeholder="重输密码" />
+        </view>
+      </view>
+    </view>
+    <view class="page-section">
+      <view class="page-section-btns">
+        <view><button type="ghost" size="mini" formType="reset">重置</button></view>
+        <view><button type="primary" size="mini" formType="submit">提交</button></view>
+      </view>
+    </view>
+  </form>
 </view>
